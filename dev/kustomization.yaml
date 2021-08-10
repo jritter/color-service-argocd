@@ -1,4 +1,6 @@
 bases:
 - ../base
+patchesStrategicMerge:
+- deployment/color-service.yaml
 commonLabels:
   stage: dev

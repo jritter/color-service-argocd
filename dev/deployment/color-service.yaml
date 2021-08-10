@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: color-service
+spec:
+  template:
+    spec:
+      containers:
+      - env:
+        - name: COLOR_SERVICE_COLOR
+          value: red
+        name: color-service
