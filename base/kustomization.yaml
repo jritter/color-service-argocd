@@ -1,0 +1,4 @@
+resources:
+- deployment/color-service.yaml
+- route/color-service.yaml
+- service/color-service.yaml
