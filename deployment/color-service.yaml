@@ -62,6 +62,4 @@ spec:
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       schedulerName: default-scheduler
-      serviceAccount: color-service-0ac4f347
-      serviceAccountName: color-service-0ac4f347
       terminationGracePeriodSeconds: 30
