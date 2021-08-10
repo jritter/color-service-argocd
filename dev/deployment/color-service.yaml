@@ -8,5 +8,5 @@ spec:
       containers:
       - env:
         - name: COLOR_SERVICE_COLOR
-          value: red
+          value: yellow
         name: color-service
